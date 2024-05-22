@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://5l3ri8uqn40b"]
+
+[ext_resource type="PackedScene" uid="uid://decca0fb7jsdo" path="res://level/wall.tscn" id="1_fceib"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_oiaak"]
+
+[sub_resource type="Sky" id="Sky_y8rpd"]
+sky_material = SubResource("ProceduralSkyMaterial_oiaak")
+
+[sub_resource type="Environment" id="Environment_jda3u"]
+background_mode = 2
+sky = SubResource("Sky_y8rpd")
+
+[node name="Test" type="Node3D"]
+
+[node name="Wall" parent="." instance=ExtResource("1_fceib")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_jda3u")
+
+[node name="Camera3D" type="Camera3D" parent="WorldEnvironment"]
+transform = Transform3D(1, 0, 0, 0, 0.79653, 0.604599, 0, -0.604599, 0.79653, 0, 4.78045, 4.00436)

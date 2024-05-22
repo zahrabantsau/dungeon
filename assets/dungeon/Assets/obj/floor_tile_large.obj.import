@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brdrsu1ew3k4o"
+path="res://.godot/imported/floor_tile_large.obj-3528f5dd63545675a38132a081121007.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor_tile_large.obj-3528f5dd63545675a38132a081121007.mesh"]
+
+source_file="res://assets/dungeon/Assets/obj/floor_tile_large.obj"
+dest_files=["res://.godot/imported/floor_tile_large.obj-3528f5dd63545675a38132a081121007.mesh", "res://.godot/imported/floor_tile_large.obj-3528f5dd63545675a38132a081121007.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

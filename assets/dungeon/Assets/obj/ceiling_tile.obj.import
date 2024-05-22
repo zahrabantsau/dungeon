@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5l56e2sk5c8b"
+path="res://.godot/imported/ceiling_tile.obj-a3d42a94e41a1a1934a78ad1968df268.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ceiling_tile.obj-a3d42a94e41a1a1934a78ad1968df268.mesh"]
+
+source_file="res://assets/dungeon/Assets/obj/ceiling_tile.obj"
+dest_files=["res://.godot/imported/ceiling_tile.obj-a3d42a94e41a1a1934a78ad1968df268.mesh", "res://.godot/imported/ceiling_tile.obj-a3d42a94e41a1a1934a78ad1968df268.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

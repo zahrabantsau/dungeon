@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://de54qtwbsy4eg"]
+
+[ext_resource type="ArrayMesh" uid="uid://b1islb1bv4i4" path="res://assets/dungeon/Assets/obj/wall_half.obj" id="1_nbwbe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lcyb4"]
+size = Vector3(2, 4, 1)
+
+[node name="WallSmall" type="StaticBody3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_nbwbe")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 0)
+shape = SubResource("BoxShape3D_lcyb4")

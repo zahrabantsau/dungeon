@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwh3f2h4n76xt"
+path="res://.godot/imported/banner_triple_green.obj-0092f1ecbdbf36be1cbf8f1bf6e5cb2c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/banner_triple_green.obj-0092f1ecbdbf36be1cbf8f1bf6e5cb2c.mesh"]
+
+source_file="res://assets/dungeon/Assets/obj/banner_triple_green.obj"
+dest_files=["res://.godot/imported/banner_triple_green.obj-0092f1ecbdbf36be1cbf8f1bf6e5cb2c.mesh", "res://.godot/imported/banner_triple_green.obj-0092f1ecbdbf36be1cbf8f1bf6e5cb2c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
