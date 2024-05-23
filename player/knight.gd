@@ -1,6 +1,8 @@
 class_name Player 
 extends CharacterBody3D
 
+signal on_portal_destroyed
+
 @export var speed = 5
 @export var acceleration = 5
 @export var jump_strength = 10
@@ -12,6 +14,9 @@ extends CharacterBody3D
 @onready var _weapon = $Model/Rig/Skeleton3D/Sword/SwordArea/SwordCollision
 
 var _game_started = false
+
+func damage(amount):
+	queue_free()
 
 func _physics_process(delta):
 	if not _game_started:
@@ -97,7 +102,9 @@ func _animate(animation):
 func _on_main_game_started():
 	_game_started = true
 
-
 func _on_sword_area_body_entered(body):
-	if (body is SkeletonWarrior):
+	if body is SkeletonWarrior:
 		body.die()
+	elif body is Portal:
+		body.queue_free()
+		on_portal_destroyed.emit()

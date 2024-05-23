@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://de54qtwbsy4eg" path="res://level/wall_small.tscn" id="4_djqse"]
 [ext_resource type="PackedScene" uid="uid://cp5i8nxly8myh" path="res://level/entrance.tscn" id="5_086um"]
 
-[node name="Dungeon" type="Node3D"]
+[node name="Dungeon" type="Node3D" groups=["dungeon"]]
 
 [node name="Floor" type="Node3D" parent="."]
 

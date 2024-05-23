@@ -73,3 +73,4 @@ attack_strong={
 3d_physics/layer_2="creature"
 3d_physics/layer_3="player"
 3d_physics/layer_4="weapon"
+3d_physics/layer_5="spawn"
